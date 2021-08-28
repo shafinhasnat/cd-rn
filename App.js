@@ -1,10 +1,12 @@
 import React from 'react';
-import { StyleSheet, StatusBar } from 'react-native';
+import { StyleSheet, StatusBar, View } from 'react-native';
 import Index from './src';
 
 export default function App() {
   return (
-    <Index/>
+    <View style={styles.container}>
+      <Index/>
+    </View>
   );
 }
 
